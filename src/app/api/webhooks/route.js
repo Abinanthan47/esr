@@ -1,5 +1,5 @@
 import { createOrUpdateUser, deleteUser } from "@/lib/actions/user";
-import { clerkClient } from "@clerk/nextjs/dist/types/server";
+import { clerkClient } from "@clerk/nextjs/server";
 import { headers } from "next/headers";
 import { Webhook } from "svix";
 
